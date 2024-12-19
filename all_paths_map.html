@@ -1,0 +1,3606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6d6bfba88e88a5b4a4d7372336defb80 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6d6bfba88e88a5b4a4d7372336defb80" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6d6bfba88e88a5b4a4d7372336defb80 = L.map(
+                "map_6d6bfba88e88a5b4a4d7372336defb80",
+                {
+                    center: [38.119235399999994, -122.2829195],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fe320ec1e06b961131b0253ee67e100c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fe320ec1e06b961131b0253ee67e100c.addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            var marker_705f0f6755fd225bcc14d892fab42edc = L.marker(
+                [38.16758, -122.23883],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_3114ea474ab37c8450a3a4156636c02b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc4ab8ca9845179883270616ced9ef42 = $(`<div id="html_fc4ab8ca9845179883270616ced9ef42" style="width: 100.0%; height: 100.0%;">American Canyon</div>`)[0];
+                popup_3114ea474ab37c8450a3a4156636c02b.setContent(html_fc4ab8ca9845179883270616ced9ef42);
+            
+        
+
+        marker_705f0f6755fd225bcc14d892fab42edc.bindPopup(popup_3114ea474ab37c8450a3a4156636c02b)
+        ;
+
+        
+    
+    
+            var marker_a1fac82ffac83888852a60e7f268308e = L.marker(
+                [37.888308, -122.28354],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_b8b475b0356fce9d5101349fe5dbc25e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f324ebecb8496bd90f30354849e865c = $(`<div id="html_4f324ebecb8496bd90f30354849e865c" style="width: 100.0%; height: 100.0%;">St Marys</div>`)[0];
+                popup_b8b475b0356fce9d5101349fe5dbc25e.setContent(html_4f324ebecb8496bd90f30354849e865c);
+            
+        
+
+        marker_a1fac82ffac83888852a60e7f268308e.bindPopup(popup_b8b475b0356fce9d5101349fe5dbc25e)
+        ;
+
+        
+    
+    
+            var marker_6b82c46558bc2d5c066d0d87c99bcc6e = L.marker(
+                [38.08716, -122.20248],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_299072c99ca2885a97a284d3ed9fe55a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7b993e556b8c49e8f180c0d5f8afc81 = $(`<div id="html_f7b993e556b8c49e8f180c0d5f8afc81" style="width: 100.0%; height: 100.0%;">St Patrick</div>`)[0];
+                popup_299072c99ca2885a97a284d3ed9fe55a.setContent(html_f7b993e556b8c49e8f180c0d5f8afc81);
+            
+        
+
+        marker_6b82c46558bc2d5c066d0d87c99bcc6e.bindPopup(popup_299072c99ca2885a97a284d3ed9fe55a)
+        ;
+
+        
+    
+    
+            var marker_c9967dbc84986645f5bcd53077f3fc00 = L.marker(
+                [38.19977, -122.1458],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_d2a150f9f7b7399e3cb616e0f96364bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dd01ef5cc45f9f16b8fe63466016df6 = $(`<div id="html_9dd01ef5cc45f9f16b8fe63466016df6" style="width: 100.0%; height: 100.0%;">Rodriguez</div>`)[0];
+                popup_d2a150f9f7b7399e3cb616e0f96364bd.setContent(html_9dd01ef5cc45f9f16b8fe63466016df6);
+            
+        
+
+        marker_c9967dbc84986645f5bcd53077f3fc00.bindPopup(popup_d2a150f9f7b7399e3cb616e0f96364bd)
+        ;
+
+        
+    
+    
+            var marker_74bd06d995cdb151c1ac37fad54e75bd = L.marker(
+                [38.12048, -122.20775],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_2ca717492b05a758e361cf83aac2d24b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d91249c20bef18af7b2cccd36632491 = $(`<div id="html_6d91249c20bef18af7b2cccd36632491" style="width: 100.0%; height: 100.0%;">Jesse Bethel</div>`)[0];
+                popup_2ca717492b05a758e361cf83aac2d24b.setContent(html_6d91249c20bef18af7b2cccd36632491);
+            
+        
+
+        marker_74bd06d995cdb151c1ac37fad54e75bd.bindPopup(popup_2ca717492b05a758e361cf83aac2d24b)
+        ;
+
+        
+    
+    
+            var marker_d43b8725b162748dcbc22d0bd3aae7d0 = L.marker(
+                [38.06512, -122.17585],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_4f30dc9a308e7bf4d3ced11e0f282933 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaa799c709b56082aae42daae90bcb11 = $(`<div id="html_aaa799c709b56082aae42daae90bcb11" style="width: 100.0%; height: 100.0%;">Benicia</div>`)[0];
+                popup_4f30dc9a308e7bf4d3ced11e0f282933.setContent(html_aaa799c709b56082aae42daae90bcb11);
+            
+        
+
+        marker_d43b8725b162748dcbc22d0bd3aae7d0.bindPopup(popup_4f30dc9a308e7bf4d3ced11e0f282933)
+        ;
+
+        
+    
+    
+            var marker_e80a1ef9853a928ce69b214a5ed4d5e5 = L.marker(
+                [38.27802, -122.03089],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_02ef5dc77700ba7c336ef58c6c5de26d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ba7f61ba9a5ff8cac58c728405289f5 = $(`<div id="html_4ba7f61ba9a5ff8cac58c728405289f5" style="width: 100.0%; height: 100.0%;">FairField</div>`)[0];
+                popup_02ef5dc77700ba7c336ef58c6c5de26d.setContent(html_4ba7f61ba9a5ff8cac58c728405289f5);
+            
+        
+
+        marker_e80a1ef9853a928ce69b214a5ed4d5e5.bindPopup(popup_02ef5dc77700ba7c336ef58c6c5de26d)
+        ;
+
+        
+    
+    
+            var marker_0a7d4e957274f90fef32e92c8eba4aa7 = L.marker(
+                [38.28229, -121.96281],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_cf209db9a33860d5b80ca34366cbc6bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54e9a217c14290ed9df1bfa663a4cb09 = $(`<div id="html_54e9a217c14290ed9df1bfa663a4cb09" style="width: 100.0%; height: 100.0%;">Vanden</div>`)[0];
+                popup_cf209db9a33860d5b80ca34366cbc6bc.setContent(html_54e9a217c14290ed9df1bfa663a4cb09);
+            
+        
+
+        marker_0a7d4e957274f90fef32e92c8eba4aa7.bindPopup(popup_cf209db9a33860d5b80ca34366cbc6bc)
+        ;
+
+        
+    
+    
+            var marker_d16aabfe6d5c91256aca666d08a3a2b1 = L.marker(
+                [37.95316, -122.34087],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_6efd44cd17cefba1e24ec29fe5214b9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22fde57ff550e75d520b1076d03da142 = $(`<div id="html_22fde57ff550e75d520b1076d03da142" style="width: 100.0%; height: 100.0%;">Salesian</div>`)[0];
+                popup_6efd44cd17cefba1e24ec29fe5214b9c.setContent(html_22fde57ff550e75d520b1076d03da142);
+            
+        
+
+        marker_d16aabfe6d5c91256aca666d08a3a2b1.bindPopup(popup_6efd44cd17cefba1e24ec29fe5214b9c)
+        ;
+
+        
+    
+    
+            var marker_01c795e76e1ea4c8ce69f9493a2390ae = L.marker(
+                [38.31148, -122.29703],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_4790d31edc01d521778774b84e7abf0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74117741792afd1deffb38aed80b863d = $(`<div id="html_74117741792afd1deffb38aed80b863d" style="width: 100.0%; height: 100.0%;">Napa</div>`)[0];
+                popup_4790d31edc01d521778774b84e7abf0f.setContent(html_74117741792afd1deffb38aed80b863d);
+            
+        
+
+        marker_01c795e76e1ea4c8ce69f9493a2390ae.bindPopup(popup_4790d31edc01d521778774b84e7abf0f)
+        ;
+
+        
+    
+    
+            var marker_13a52d692c5316aa9dfa916e79701197 = L.marker(
+                [38.33333, -122.30462],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_b2966488775921f78af5e2135eaea108 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de3e15cf4118864c3cff24250e99a8d9 = $(`<div id="html_de3e15cf4118864c3cff24250e99a8d9" style="width: 100.0%; height: 100.0%;">Vintage</div>`)[0];
+                popup_b2966488775921f78af5e2135eaea108.setContent(html_de3e15cf4118864c3cff24250e99a8d9);
+            
+        
+
+        marker_13a52d692c5316aa9dfa916e79701197.bindPopup(popup_b2966488775921f78af5e2135eaea108)
+        ;
+
+        
+    
+    
+            var marker_8960f35149eb5b93723231c853b38956 = L.marker(
+                [38.49681, -122.46265],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_929fb1a99b414921a3ff9b82b19e5404 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cabb3ec54c7443c3f68df7b137357eb = $(`<div id="html_3cabb3ec54c7443c3f68df7b137357eb" style="width: 100.0%; height: 100.0%;">St Helena</div>`)[0];
+                popup_929fb1a99b414921a3ff9b82b19e5404.setContent(html_3cabb3ec54c7443c3f68df7b137357eb);
+            
+        
+
+        marker_8960f35149eb5b93723231c853b38956.bindPopup(popup_929fb1a99b414921a3ff9b82b19e5404)
+        ;
+
+        
+    
+    
+            var marker_dbd4901bbe1cebe4cd5d3bf4be8842a0 = L.marker(
+                [37.84862, -122.23983],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_bbf6e221c25233fe4d8b16ac46a3d7d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1fb4be9f5c65bf5d9a414bb6baac9d3 = $(`<div id="html_d1fb4be9f5c65bf5d9a414bb6baac9d3" style="width: 100.0%; height: 100.0%;">College Prep</div>`)[0];
+                popup_bbf6e221c25233fe4d8b16ac46a3d7d9.setContent(html_d1fb4be9f5c65bf5d9a414bb6baac9d3);
+            
+        
+
+        marker_dbd4901bbe1cebe4cd5d3bf4be8842a0.bindPopup(popup_bbf6e221c25233fe4d8b16ac46a3d7d9)
+        ;
+
+        
+    
+    
+            var marker_e0cc5b912dfb6402313ed9c19150a1ca = L.marker(
+                [38.116, -122.24595],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_893b663c2b62bceeb7578e2d6f1dc2dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4edbd9ae419002ee352d6fae60e41360 = $(`<div id="html_4edbd9ae419002ee352d6fae60e41360" style="width: 100.0%; height: 100.0%;">Vallejo</div>`)[0];
+                popup_893b663c2b62bceeb7578e2d6f1dc2dc.setContent(html_4edbd9ae419002ee352d6fae60e41360);
+            
+        
+
+        marker_e0cc5b912dfb6402313ed9c19150a1ca.bindPopup(popup_893b663c2b62bceeb7578e2d6f1dc2dc)
+        ;
+
+        
+    
+    
+            var marker_e6ec1010ee4eae4bad90cb3adf274cec = L.marker(
+                [38.22772, -122.64636],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_3eeaca6898cc5e515c294a5fe928e057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_077bfb0b72041e7af389ef94499bdd1c = $(`<div id="html_077bfb0b72041e7af389ef94499bdd1c" style="width: 100.0%; height: 100.0%;">Petaluma</div>`)[0];
+                popup_3eeaca6898cc5e515c294a5fe928e057.setContent(html_077bfb0b72041e7af389ef94499bdd1c);
+            
+        
+
+        marker_e6ec1010ee4eae4bad90cb3adf274cec.bindPopup(popup_3eeaca6898cc5e515c294a5fe928e057)
+        ;
+
+        
+    
+    
+            var marker_ff4a8a4d396b292afb93a1167be88b66 = L.marker(
+                [38.2827, -122.45788],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_f7a65a6df736b8b99cfae1d93aceca6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c08f86fd59c5ffb08b327be2056375fa = $(`<div id="html_c08f86fd59c5ffb08b327be2056375fa" style="width: 100.0%; height: 100.0%;">Sonoma</div>`)[0];
+                popup_f7a65a6df736b8b99cfae1d93aceca6e.setContent(html_c08f86fd59c5ffb08b327be2056375fa);
+            
+        
+
+        marker_ff4a8a4d396b292afb93a1167be88b66.bindPopup(popup_f7a65a6df736b8b99cfae1d93aceca6e)
+        ;
+
+        
+    
+    
+            var marker_0a6f0e1ac8f71e44db63dc282b11bde3 = L.marker(
+                [37.896, -122.29219],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_5f5ce2ea795e409db701cf0471cde312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_389cfe1c0e19c0e42c89bcd3d7d865f8 = $(`<div id="html_389cfe1c0e19c0e42c89bcd3d7d865f8" style="width: 100.0%; height: 100.0%;">Albany</div>`)[0];
+                popup_5f5ce2ea795e409db701cf0471cde312.setContent(html_389cfe1c0e19c0e42c89bcd3d7d865f8);
+            
+        
+
+        marker_0a6f0e1ac8f71e44db63dc282b11bde3.bindPopup(popup_5f5ce2ea795e409db701cf0471cde312)
+        ;
+
+        
+    
+    
+            var marker_e967d28dd00da20c33e2effd0678d1dd = L.marker(
+                [37.83252, -122.25455],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_df7e6f4120336df836812e5cd0151081 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e60ba52e3f5d6402731c5431bcd95620 = $(`<div id="html_e60ba52e3f5d6402731c5431bcd95620" style="width: 100.0%; height: 100.0%;">Oakland Tech</div>`)[0];
+                popup_df7e6f4120336df836812e5cd0151081.setContent(html_e60ba52e3f5d6402731c5431bcd95620);
+            
+        
+
+        marker_e967d28dd00da20c33e2effd0678d1dd.bindPopup(popup_df7e6f4120336df836812e5cd0151081)
+        ;
+
+        
+    
+    
+            var marker_a6b0ec760f357723188dfc4c6d93b39e = L.marker(
+                [37.9082, -122.29529],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_3a4fccb0bf4c1b01aefb88de22b940b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79f88bdf57d643420bb484d5b210de0d = $(`<div id="html_79f88bdf57d643420bb484d5b210de0d" style="width: 100.0%; height: 100.0%;">El Cerito</div>`)[0];
+                popup_3a4fccb0bf4c1b01aefb88de22b940b6.setContent(html_79f88bdf57d643420bb484d5b210de0d);
+            
+        
+
+        marker_a6b0ec760f357723188dfc4c6d93b39e.bindPopup(popup_3a4fccb0bf4c1b01aefb88de22b940b6)
+        ;
+
+        
+    
+    
+            var marker_0e0025488f1bb12609cf3b0d9d9db5b7 = L.marker(
+                [38.08944, -122.57322],
+                {
+}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+        var popup_0cd0b48dd8edf3367749525e66eb4495 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad2f79cfea0159f74004901ecc60b6bd = $(`<div id="html_ad2f79cfea0159f74004901ecc60b6bd" style="width: 100.0%; height: 100.0%;">Novato</div>`)[0];
+                popup_0cd0b48dd8edf3367749525e66eb4495.setContent(html_ad2f79cfea0159f74004901ecc60b6bd);
+            
+        
+
+        marker_0e0025488f1bb12609cf3b0d9d9db5b7.bindPopup(popup_0cd0b48dd8edf3367749525e66eb4495)
+        ;
+
+        
+    
+    
+            var poly_line_1f7454c1b2c33af772c4e213f36ecf1a = L.polyline(
+                [[38.16758, -122.23883], [37.888308, -122.28354]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_1f7454c1b2c33af772c4e213f36ecf1a.bindTooltip(
+                `<div>
+                     American Canyon -> St Marys: 31.25 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_666c30118bc6789c5072d0f4411d4b86 = L.polyline(
+                [[38.16758, -122.23883], [38.08716, -122.20248]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_666c30118bc6789c5072d0f4411d4b86.bindTooltip(
+                `<div>
+                     American Canyon -> St Patrick: 9.48 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e2fd562a6f825f77973aa988252f943d = L.polyline(
+                [[38.16758, -122.23883], [38.19977, -122.1458]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_e2fd562a6f825f77973aa988252f943d.bindTooltip(
+                `<div>
+                     American Canyon -> Rodriguez: 8.90 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5f62b8d30dc030aa09d5af23b86de6f0 = L.polyline(
+                [[38.16758, -122.23883], [38.12048, -122.20775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_5f62b8d30dc030aa09d5af23b86de6f0.bindTooltip(
+                `<div>
+                     American Canyon -> Jesse Bethel: 5.90 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eeb44fd6ffa9eaeda4d42b78a9424205 = L.polyline(
+                [[38.16758, -122.23883], [38.06512, -122.17585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_eeb44fd6ffa9eaeda4d42b78a9424205.bindTooltip(
+                `<div>
+                     American Canyon -> Benicia: 12.64 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_61a0639bcc1daa4aaceb6af3e878ba84 = L.polyline(
+                [[38.16758, -122.23883], [38.27802, -122.03089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_61a0639bcc1daa4aaceb6af3e878ba84.bindTooltip(
+                `<div>
+                     American Canyon -> FairField: 21.95 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_23673790b2a0847f6c29adb70a78e20e = L.polyline(
+                [[38.16758, -122.23883], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_23673790b2a0847f6c29adb70a78e20e.bindTooltip(
+                `<div>
+                     American Canyon -> Vanden: 27.32 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0226f2cb46e49d1f714505e3f3eedec2 = L.polyline(
+                [[38.16758, -122.23883], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_0226f2cb46e49d1f714505e3f3eedec2.bindTooltip(
+                `<div>
+                     American Canyon -> Salesian: 25.43 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f241669e0a0d6b2f9a714b2d343d8012 = L.polyline(
+                [[38.16758, -122.23883], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f241669e0a0d6b2f9a714b2d343d8012.bindTooltip(
+                `<div>
+                     American Canyon -> Napa: 16.77 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ee1c158ff7920b54697e1a2e1ad50dbf = L.polyline(
+                [[38.16758, -122.23883], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ee1c158ff7920b54697e1a2e1ad50dbf.bindTooltip(
+                `<div>
+                     American Canyon -> Vintage: 19.28 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fe15a362a9d2dcb1a0e8e7d74e750cc0 = L.polyline(
+                [[38.16758, -122.23883], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_fe15a362a9d2dcb1a0e8e7d74e750cc0.bindTooltip(
+                `<div>
+                     American Canyon -> St Helena: 41.46 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_68920b0aa5063df091c04e08a556b0aa = L.polyline(
+                [[38.16758, -122.23883], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_68920b0aa5063df091c04e08a556b0aa.bindTooltip(
+                `<div>
+                     American Canyon -> College Prep: 35.40 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2201b95acbde882ca8dd9861c68ac812 = L.polyline(
+                [[38.16758, -122.23883], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2201b95acbde882ca8dd9861c68ac812.bindTooltip(
+                `<div>
+                     American Canyon -> Vallejo: 5.76 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d0a9d8792b89a5ee50f264550e11f4b1 = L.polyline(
+                [[38.16758, -122.23883], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d0a9d8792b89a5ee50f264550e11f4b1.bindTooltip(
+                `<div>
+                     American Canyon -> Petaluma: 36.32 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4b788518c5c5b28b8bfe5cf80ca6bf1e = L.polyline(
+                [[38.16758, -122.23883], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4b788518c5c5b28b8bfe5cf80ca6bf1e.bindTooltip(
+                `<div>
+                     American Canyon -> Sonoma: 23.05 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2daf4b6177e5783851ed683e0d06f7b9 = L.polyline(
+                [[38.16758, -122.23883], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2daf4b6177e5783851ed683e0d06f7b9.bindTooltip(
+                `<div>
+                     American Canyon -> Albany: 30.51 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8c49d1ce3456d864b6df8b50fa25e10c = L.polyline(
+                [[38.16758, -122.23883], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_8c49d1ce3456d864b6df8b50fa25e10c.bindTooltip(
+                `<div>
+                     American Canyon -> Oakland Tech: 37.22 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_849743410528edd818ff64c0f4b7c068 = L.polyline(
+                [[38.16758, -122.23883], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_849743410528edd818ff64c0f4b7c068.bindTooltip(
+                `<div>
+                     American Canyon -> El Cerito: 29.21 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7df27e4ea86328b70a1eddc861172d79 = L.polyline(
+                [[38.16758, -122.23883], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_7df27e4ea86328b70a1eddc861172d79.bindTooltip(
+                `<div>
+                     American Canyon -> Novato: 30.57 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4513a562de31f77e483b7dc8aefaa3bd = L.polyline(
+                [[37.888308, -122.28354], [38.08716, -122.20248]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4513a562de31f77e483b7dc8aefaa3bd.bindTooltip(
+                `<div>
+                     St Marys -> St Patrick: 23.19 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_45a2d107d74ea2a514a88a1868906f21 = L.polyline(
+                [[37.888308, -122.28354], [38.19977, -122.1458]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_45a2d107d74ea2a514a88a1868906f21.bindTooltip(
+                `<div>
+                     St Marys -> Rodriguez: 36.62 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c6a96f596840bb6cf5f915ac5626eaf6 = L.polyline(
+                [[37.888308, -122.28354], [38.12048, -122.20775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_c6a96f596840bb6cf5f915ac5626eaf6.bindTooltip(
+                `<div>
+                     St Marys -> Jesse Bethel: 26.62 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_265ea7915e38c849dbefbe73d209bf75 = L.polyline(
+                [[37.888308, -122.28354], [38.06512, -122.17585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_265ea7915e38c849dbefbe73d209bf75.bindTooltip(
+                `<div>
+                     St Marys -> Benicia: 21.79 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a8cfc4ac9e0010ab9a2a72d4c8229159 = L.polyline(
+                [[37.888308, -122.28354], [38.27802, -122.03089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a8cfc4ac9e0010ab9a2a72d4c8229159.bindTooltip(
+                `<div>
+                     St Marys -> FairField: 48.61 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fe6b3f1e96aa25ab474e67253c87b012 = L.polyline(
+                [[37.888308, -122.28354], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_fe6b3f1e96aa25ab474e67253c87b012.bindTooltip(
+                `<div>
+                     St Marys -> Vanden: 52.00 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ca1e3f9e83dce58e81413148ebf15c2b = L.polyline(
+                [[37.888308, -122.28354], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ca1e3f9e83dce58e81413148ebf15c2b.bindTooltip(
+                `<div>
+                     St Marys -> Salesian: 8.79 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5ad2ec210dfd4cae54586635f3a7fb7f = L.polyline(
+                [[37.888308, -122.28354], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_5ad2ec210dfd4cae54586635f3a7fb7f.bindTooltip(
+                `<div>
+                     St Marys -> Napa: 46.99 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d7968411c8c3352f8556f140e925975e = L.polyline(
+                [[37.888308, -122.28354], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d7968411c8c3352f8556f140e925975e.bindTooltip(
+                `<div>
+                     St Marys -> Vintage: 49.43 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a28f6232da73bf7717ec555492725194 = L.polyline(
+                [[37.888308, -122.28354], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a28f6232da73bf7717ec555492725194.bindTooltip(
+                `<div>
+                     St Marys -> St Helena: 69.34 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_817d51f62d51c85bea7444f175579fbe = L.polyline(
+                [[37.888308, -122.28354], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_817d51f62d51c85bea7444f175579fbe.bindTooltip(
+                `<div>
+                     St Marys -> College Prep: 5.85 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cd6aff173860c6e65cdba4a3d761cbdd = L.polyline(
+                [[37.888308, -122.28354], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_cd6aff173860c6e65cdba4a3d761cbdd.bindTooltip(
+                `<div>
+                     St Marys -> Vallejo: 25.49 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2ef419dc01fc7fb10260233c4400503a = L.polyline(
+                [[37.888308, -122.28354], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2ef419dc01fc7fb10260233c4400503a.bindTooltip(
+                `<div>
+                     St Marys -> Petaluma: 49.33 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7652f63da2c0d9d9ef3c64e8edd310a4 = L.polyline(
+                [[37.888308, -122.28354], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_7652f63da2c0d9d9ef3c64e8edd310a4.bindTooltip(
+                `<div>
+                     St Marys -> Sonoma: 46.37 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a843b31141ea92e750ec8989f778f6f3 = L.polyline(
+                [[37.888308, -122.28354], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a843b31141ea92e750ec8989f778f6f3.bindTooltip(
+                `<div>
+                     St Marys -> Albany: 1.14 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d12fdce7722e8ab04896f66384f315d0 = L.polyline(
+                [[37.888308, -122.28354], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d12fdce7722e8ab04896f66384f315d0.bindTooltip(
+                `<div>
+                     St Marys -> Oakland Tech: 6.70 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a855e6b6f89963af030ca9e88374839a = L.polyline(
+                [[37.888308, -122.28354], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a855e6b6f89963af030ca9e88374839a.bindTooltip(
+                `<div>
+                     St Marys -> El Cerito: 2.44 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2865ff78be4fcfd5df989009cea3d47d = L.polyline(
+                [[37.888308, -122.28354], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2865ff78be4fcfd5df989009cea3d47d.bindTooltip(
+                `<div>
+                     St Marys -> Novato: 33.85 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3dca4925be321453d9a6739f0301be72 = L.polyline(
+                [[38.08716, -122.20248], [38.19977, -122.1458]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3dca4925be321453d9a6739f0301be72.bindTooltip(
+                `<div>
+                     St Patrick -> Rodriguez: 13.45 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a5a1f3ff8f49b0807bc2d8d103c4b3cf = L.polyline(
+                [[38.08716, -122.20248], [38.12048, -122.20775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a5a1f3ff8f49b0807bc2d8d103c4b3cf.bindTooltip(
+                `<div>
+                     St Patrick -> Jesse Bethel: 3.73 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a732fc95482f564c0613de877f76d38b = L.polyline(
+                [[38.08716, -122.20248], [38.06512, -122.17585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a732fc95482f564c0613de877f76d38b.bindTooltip(
+                `<div>
+                     St Patrick -> Benicia: 3.38 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_16c4114af2fc4d6050ca3af739354c05 = L.polyline(
+                [[38.08716, -122.20248], [38.27802, -122.03089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_16c4114af2fc4d6050ca3af739354c05.bindTooltip(
+                `<div>
+                     St Patrick -> FairField: 25.98 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_aca2532fbf1638a2c2fdd05137193b00 = L.polyline(
+                [[38.08716, -122.20248], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_aca2532fbf1638a2c2fdd05137193b00.bindTooltip(
+                `<div>
+                     St Patrick -> Vanden: 30.17 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ed2066355d9d2255efeded0532d8c0b3 = L.polyline(
+                [[38.08716, -122.20248], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ed2066355d9d2255efeded0532d8c0b3.bindTooltip(
+                `<div>
+                     St Patrick -> Salesian: 19.21 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5a15ee437cd7a9431426dfb97a7f1c38 = L.polyline(
+                [[38.08716, -122.20248], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_5a15ee437cd7a9431426dfb97a7f1c38.bindTooltip(
+                `<div>
+                     St Patrick -> Napa: 26.24 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a4745b0eb225db4cff10c9f0f88f0c59 = L.polyline(
+                [[38.08716, -122.20248], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a4745b0eb225db4cff10c9f0f88f0c59.bindTooltip(
+                `<div>
+                     St Patrick -> Vintage: 28.75 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8d21837d60fd2c8d4f45daf2f67dea37 = L.polyline(
+                [[38.08716, -122.20248], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_8d21837d60fd2c8d4f45daf2f67dea37.bindTooltip(
+                `<div>
+                     St Patrick -> St Helena: 50.85 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ac7f8d4adca748d93ea37c73d8630281 = L.polyline(
+                [[38.08716, -122.20248], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ac7f8d4adca748d93ea37c73d8630281.bindTooltip(
+                `<div>
+                     St Patrick -> College Prep: 26.68 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3bb153b7bca5819532b9ab074a2b9163 = L.polyline(
+                [[38.08716, -122.20248], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3bb153b7bca5819532b9ab074a2b9163.bindTooltip(
+                `<div>
+                     St Patrick -> Vallejo: 4.98 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_31a4ef06364f7933eef10d2d07d94fa9 = L.polyline(
+                [[38.08716, -122.20248], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_31a4ef06364f7933eef10d2d07d94fa9.bindTooltip(
+                `<div>
+                     St Patrick -> Petaluma: 41.92 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_59ad47e2a2195c6c70273a49eb3effd4 = L.polyline(
+                [[38.08716, -122.20248], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_59ad47e2a2195c6c70273a49eb3effd4.bindTooltip(
+                `<div>
+                     St Patrick -> Sonoma: 31.17 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3daa1017aeadb9c3ee1c97fdb1f2894a = L.polyline(
+                [[38.08716, -122.20248], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3daa1017aeadb9c3ee1c97fdb1f2894a.bindTooltip(
+                `<div>
+                     St Patrick -> Albany: 22.63 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_11b35e3a9b15d95c0005ff760e7df363 = L.polyline(
+                [[38.08716, -122.20248], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_11b35e3a9b15d95c0005ff760e7df363.bindTooltip(
+                `<div>
+                     St Patrick -> Oakland Tech: 28.63 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8307242212271d62cad7dfd3958c957a = L.polyline(
+                [[38.08716, -122.20248], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_8307242212271d62cad7dfd3958c957a.bindTooltip(
+                `<div>
+                     St Patrick -> El Cerito: 21.47 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_22d12bf70420b6b294dd5042755debab = L.polyline(
+                [[38.08716, -122.20248], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_22d12bf70420b6b294dd5042755debab.bindTooltip(
+                `<div>
+                     St Patrick -> Novato: 32.52 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e3a162a8e316da2e55a975afdac8245a = L.polyline(
+                [[38.19977, -122.1458], [38.12048, -122.20775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_e3a162a8e316da2e55a975afdac8245a.bindTooltip(
+                `<div>
+                     Rodriguez -> Jesse Bethel: 10.34 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eb6b3dfd1edd619b105241d95549692c = L.polyline(
+                [[38.19977, -122.1458], [38.06512, -122.17585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_eb6b3dfd1edd619b105241d95549692c.bindTooltip(
+                `<div>
+                     Rodriguez -> Benicia: 15.18 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3a2051e043b2621c49185ee783e65e67 = L.polyline(
+                [[38.19977, -122.1458], [38.27802, -122.03089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3a2051e043b2621c49185ee783e65e67.bindTooltip(
+                `<div>
+                     Rodriguez -> FairField: 13.29 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_83426010276aae9a5841e4f4b998bc9a = L.polyline(
+                [[38.19977, -122.1458], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_83426010276aae9a5841e4f4b998bc9a.bindTooltip(
+                `<div>
+                     Rodriguez -> Vanden: 18.45 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cf0cee102adb207c248975e4317dc060 = L.polyline(
+                [[38.19977, -122.1458], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_cf0cee102adb207c248975e4317dc060.bindTooltip(
+                `<div>
+                     Rodriguez -> Salesian: 32.28 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_59fc95f059ca09ec3ed31f9e6a0d9458 = L.polyline(
+                [[38.19977, -122.1458], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_59fc95f059ca09ec3ed31f9e6a0d9458.bindTooltip(
+                `<div>
+                     Rodriguez -> Napa: 18.14 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c1da09ec305c3304651697fb42ff648f = L.polyline(
+                [[38.19977, -122.1458], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_c1da09ec305c3304651697fb42ff648f.bindTooltip(
+                `<div>
+                     Rodriguez -> Vintage: 20.32 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b1dfb15d57ac543afcd53cafd4784bb3 = L.polyline(
+                [[38.19977, -122.1458], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_b1dfb15d57ac543afcd53cafd4784bb3.bindTooltip(
+                `<div>
+                     Rodriguez -> St Helena: 43.06 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1a92cf7dbc719f4df99cbcc32dac3afe = L.polyline(
+                [[38.19977, -122.1458], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_1a92cf7dbc719f4df99cbcc32dac3afe.bindTooltip(
+                `<div>
+                     Rodriguez -> College Prep: 39.84 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_88a00c47bfa42d74a4ccb5c7314471e1 = L.polyline(
+                [[38.19977, -122.1458], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_88a00c47bfa42d74a4ccb5c7314471e1.bindTooltip(
+                `<div>
+                     Rodriguez -> Vallejo: 12.79 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_97f400863bd8f28a5df92b689b35b4b2 = L.polyline(
+                [[38.19977, -122.1458], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_97f400863bd8f28a5df92b689b35b4b2.bindTooltip(
+                `<div>
+                     Rodriguez -> Petaluma: 43.95 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_40fbcf4423c6366b547d7dc9625060be = L.polyline(
+                [[38.19977, -122.1458], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_40fbcf4423c6366b547d7dc9625060be.bindTooltip(
+                `<div>
+                     Rodriguez -> Sonoma: 28.83 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_faaab60bae2e4938c06f65f6fb756ba5 = L.polyline(
+                [[38.19977, -122.1458], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_faaab60bae2e4938c06f65f6fb756ba5.bindTooltip(
+                `<div>
+                     Rodriguez -> Albany: 36.08 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dbf6f6e62e0c4cee4a52846b00b393f7 = L.polyline(
+                [[38.19977, -122.1458], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_dbf6f6e62e0c4cee4a52846b00b393f7.bindTooltip(
+                `<div>
+                     Rodriguez -> Oakland Tech: 41.87 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7af3af0890afc85a5fdccaf5d3a1a388 = L.polyline(
+                [[38.19977, -122.1458], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_7af3af0890afc85a5fdccaf5d3a1a388.bindTooltip(
+                `<div>
+                     Rodriguez -> El Cerito: 34.92 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5a0917359331eb6ff0bcfef2a648f06e = L.polyline(
+                [[38.19977, -122.1458], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_5a0917359331eb6ff0bcfef2a648f06e.bindTooltip(
+                `<div>
+                     Rodriguez -> Novato: 39.42 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d28618b92872334633be783560fc7bcd = L.polyline(
+                [[38.12048, -122.20775], [38.06512, -122.17585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d28618b92872334633be783560fc7bcd.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Benicia: 6.75 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1f1036db2a42e5217af0a5954e4a75a8 = L.polyline(
+                [[38.12048, -122.20775], [38.27802, -122.03089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_1f1036db2a42e5217af0a5954e4a75a8.bindTooltip(
+                `<div>
+                     Jesse Bethel -> FairField: 23.36 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_efc398113af048709eb77b8e30be90fa = L.polyline(
+                [[38.12048, -122.20775], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_efc398113af048709eb77b8e30be90fa.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Vanden: 27.98 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_95917348e260d69efabce4942936f1bc = L.polyline(
+                [[38.12048, -122.20775], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_95917348e260d69efabce4942936f1bc.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Salesian: 21.94 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3ad7198deefa0c2bc04c8d081c954db0 = L.polyline(
+                [[38.12048, -122.20775], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3ad7198deefa0c2bc04c8d081c954db0.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Napa: 22.60 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b8d773dbbcf2a75f80e18d75a8ad8503 = L.polyline(
+                [[38.12048, -122.20775], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_b8d773dbbcf2a75f80e18d75a8ad8503.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Vintage: 25.10 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ca75bb8311d5fd8b5c04468f3e84887f = L.polyline(
+                [[38.12048, -122.20775], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ca75bb8311d5fd8b5c04468f3e84887f.bindTooltip(
+                `<div>
+                     Jesse Bethel -> St Helena: 47.35 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_27a333318325db0a74a1df3caccb64b5 = L.polyline(
+                [[38.12048, -122.20775], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_27a333318325db0a74a1df3caccb64b5.bindTooltip(
+                `<div>
+                     Jesse Bethel -> College Prep: 30.31 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4ea7fa91552e0229d4024d9ea4d73644 = L.polyline(
+                [[38.12048, -122.20775], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4ea7fa91552e0229d4024d9ea4d73644.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Vallejo: 3.39 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a34242d8921ea6094f70260e0e0c2100 = L.polyline(
+                [[38.12048, -122.20775], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a34242d8921ea6094f70260e0e0c2100.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Petaluma: 40.23 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_70f82180d4468598a6dc8832a2735e6b = L.polyline(
+                [[38.12048, -122.20775], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_70f82180d4468598a6dc8832a2735e6b.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Sonoma: 28.36 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2b46c1ef770450c7095db1a6fa580929 = L.polyline(
+                [[38.12048, -122.20775], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2b46c1ef770450c7095db1a6fa580929.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Albany: 26.00 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4913cf1f1ef59ab195550092995edf12 = L.polyline(
+                [[38.12048, -122.20775], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4913cf1f1ef59ab195550092995edf12.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Oakland Tech: 32.23 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_38e14ebaa992ad6b552f533c32dbf4de = L.polyline(
+                [[38.12048, -122.20775], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_38e14ebaa992ad6b552f533c32dbf4de.bindTooltip(
+                `<div>
+                     Jesse Bethel -> El Cerito: 24.78 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a0470789d3843ffde7027517bea500b5 = L.polyline(
+                [[38.12048, -122.20775], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a0470789d3843ffde7027517bea500b5.bindTooltip(
+                `<div>
+                     Jesse Bethel -> Novato: 32.24 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_226d17da501bc4949cdd10473d247854 = L.polyline(
+                [[38.06512, -122.17585], [38.27802, -122.03089]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_226d17da501bc4949cdd10473d247854.bindTooltip(
+                `<div>
+                     Benicia -> FairField: 26.83 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_74b74cc579e5404317c043699a92fbbf = L.polyline(
+                [[38.06512, -122.17585], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_74b74cc579e5404317c043699a92fbbf.bindTooltip(
+                `<div>
+                     Benicia -> Vanden: 30.49 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_474bc07af6e10362114418d1111adb53 = L.polyline(
+                [[38.06512, -122.17585], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_474bc07af6e10362114418d1111adb53.bindTooltip(
+                `<div>
+                     Benicia -> Salesian: 19.09 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_06d21c53594a38c283b3da7259270441 = L.polyline(
+                [[38.06512, -122.17585], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_06d21c53594a38c283b3da7259270441.bindTooltip(
+                `<div>
+                     Benicia -> Napa: 29.33 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a312ba273e0aa2ebd3dcbf392ce65ca1 = L.polyline(
+                [[38.06512, -122.17585], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a312ba273e0aa2ebd3dcbf392ce65ca1.bindTooltip(
+                `<div>
+                     Benicia -> Vintage: 31.84 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3c9c9dd660b939ae041187af1d947814 = L.polyline(
+                [[38.06512, -122.17585], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3c9c9dd660b939ae041187af1d947814.bindTooltip(
+                `<div>
+                     Benicia -> St Helena: 54.09 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6e2f98ee1095eeff5a66f77c2ec65f57 = L.polyline(
+                [[38.06512, -122.17585], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_6e2f98ee1095eeff5a66f77c2ec65f57.bindTooltip(
+                `<div>
+                     Benicia -> College Prep: 24.68 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f25aa1a32322559b5530055db6e7e91a = L.polyline(
+                [[38.06512, -122.17585], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f25aa1a32322559b5530055db6e7e91a.bindTooltip(
+                `<div>
+                     Benicia -> Vallejo: 8.35 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4cb6089143620a8eca4a7febc17a5731 = L.polyline(
+                [[38.06512, -122.17585], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4cb6089143620a8eca4a7febc17a5731.bindTooltip(
+                `<div>
+                     Benicia -> Petaluma: 45.02 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9328b5cfe61614f5248d5fc74ab003df = L.polyline(
+                [[38.06512, -122.17585], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9328b5cfe61614f5248d5fc74ab003df.bindTooltip(
+                `<div>
+                     Benicia -> Sonoma: 34.55 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cb32ff90544dc21f1e147c15da9a5b39 = L.polyline(
+                [[38.06512, -122.17585], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_cb32ff90544dc21f1e147c15da9a5b39.bindTooltip(
+                `<div>
+                     Benicia -> Albany: 21.37 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5a33bdc61485e1bc59efedb767d2fa74 = L.polyline(
+                [[38.06512, -122.17585], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_5a33bdc61485e1bc59efedb767d2fa74.bindTooltip(
+                `<div>
+                     Benicia -> Oakland Tech: 26.73 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c2ef80b2f462ea4f7860edc7202ef26e = L.polyline(
+                [[38.06512, -122.17585], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_c2ef80b2f462ea4f7860edc7202ef26e.bindTooltip(
+                `<div>
+                     Benicia -> El Cerito: 20.33 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eadcadaac826b81cfa5e723eb22d61a1 = L.polyline(
+                [[38.06512, -122.17585], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_eadcadaac826b81cfa5e723eb22d61a1.bindTooltip(
+                `<div>
+                     Benicia -> Novato: 34.97 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3a6da942130bbdcf870bc72deef78416 = L.polyline(
+                [[38.27802, -122.03089], [38.28229, -121.96281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3a6da942130bbdcf870bc72deef78416.bindTooltip(
+                `<div>
+                     FairField -> Vanden: 5.98 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9e78bbbfd9a88ba314e772ef50da289e = L.polyline(
+                [[38.27802, -122.03089], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9e78bbbfd9a88ba314e772ef50da289e.bindTooltip(
+                `<div>
+                     FairField -> Salesian: 45.16 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fb52fcb4cbbecf3550e86de79ed3fc4b = L.polyline(
+                [[38.27802, -122.03089], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_fb52fcb4cbbecf3550e86de79ed3fc4b.bindTooltip(
+                `<div>
+                     FairField -> Napa: 23.58 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_98da8a15154e2d86d47d205be1223a4c = L.polyline(
+                [[38.27802, -122.03089], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_98da8a15154e2d86d47d205be1223a4c.bindTooltip(
+                `<div>
+                     FairField -> Vintage: 24.72 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2b74bc57656203e4407d37826db04842 = L.polyline(
+                [[38.27802, -122.03089], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2b74bc57656203e4407d37826db04842.bindTooltip(
+                `<div>
+                     FairField -> St Helena: 44.86 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2451b97d8dbf4591bacd3022e794933e = L.polyline(
+                [[38.27802, -122.03089], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2451b97d8dbf4591bacd3022e794933e.bindTooltip(
+                `<div>
+                     FairField -> College Prep: 51.07 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_dd423610317bbb453ac2787f37f33664 = L.polyline(
+                [[38.27802, -122.03089], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_dd423610317bbb453ac2787f37f33664.bindTooltip(
+                `<div>
+                     FairField -> Vallejo: 26.04 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c4cca1d807b9e48b279319fd839fbd52 = L.polyline(
+                [[38.27802, -122.03089], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_c4cca1d807b9e48b279319fd839fbd52.bindTooltip(
+                `<div>
+                     FairField -> Petaluma: 54.16 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1e4d99b24563fe4be733a8a77b4e6696 = L.polyline(
+                [[38.27802, -122.03089], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_1e4d99b24563fe4be733a8a77b4e6696.bindTooltip(
+                `<div>
+                     FairField -> Sonoma: 37.36 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_874f5e3f8c7daf1121830c6208bcbe41 = L.polyline(
+                [[38.27802, -122.03089], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_874f5e3f8c7daf1121830c6208bcbe41.bindTooltip(
+                `<div>
+                     FairField -> Albany: 48.20 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6c19a5a5198ff27297cfcf1456b30585 = L.polyline(
+                [[38.27802, -122.03089], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_6c19a5a5198ff27297cfcf1456b30585.bindTooltip(
+                `<div>
+                     FairField -> Oakland Tech: 53.20 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ebc06a1cdc528932e85dbbbaee7a0a83 = L.polyline(
+                [[38.27802, -122.03089], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ebc06a1cdc528932e85dbbbaee7a0a83.bindTooltip(
+                `<div>
+                     FairField -> El Cerito: 47.15 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_672bc3bf7e38df1b11e7219a59d31420 = L.polyline(
+                [[38.27802, -122.03089], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_672bc3bf7e38df1b11e7219a59d31420.bindTooltip(
+                `<div>
+                     FairField -> Novato: 51.92 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_373ff2204e1bfc8bc82ad7fb4aefa7ad = L.polyline(
+                [[38.28229, -121.96281], [37.95316, -122.34087]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_373ff2204e1bfc8bc82ad7fb4aefa7ad.bindTooltip(
+                `<div>
+                     Vanden -> Salesian: 49.33 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d8ef0621ca67cf40448bfa0dede90621 = L.polyline(
+                [[38.28229, -121.96281], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d8ef0621ca67cf40448bfa0dede90621.bindTooltip(
+                `<div>
+                     Vanden -> Napa: 29.42 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2c541e98afb2d8658fb59bc0ff748c0c = L.polyline(
+                [[38.28229, -121.96281], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2c541e98afb2d8658fb59bc0ff748c0c.bindTooltip(
+                `<div>
+                     Vanden -> Vintage: 30.43 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f2ab5dbe63abfbab32af7f0eb633b767 = L.polyline(
+                [[38.28229, -121.96281], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f2ab5dbe63abfbab32af7f0eb633b767.bindTooltip(
+                `<div>
+                     Vanden -> St Helena: 49.74 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9bb7d15a7d56a5562d5ebb5333ad8dea = L.polyline(
+                [[38.28229, -121.96281], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9bb7d15a7d56a5562d5ebb5333ad8dea.bindTooltip(
+                `<div>
+                     Vanden -> College Prep: 53.93 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ff135604fc6f62c45a4975b315873969 = L.polyline(
+                [[38.28229, -121.96281], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ff135604fc6f62c45a4975b315873969.bindTooltip(
+                `<div>
+                     Vanden -> Vallejo: 30.92 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1cc80a0ddd376a157db7328099fcb56e = L.polyline(
+                [[38.28229, -121.96281], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_1cc80a0ddd376a157db7328099fcb56e.bindTooltip(
+                `<div>
+                     Vanden -> Petaluma: 60.14 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_720578bba3a027ebe0a36a743a50a6d8 = L.polyline(
+                [[38.28229, -121.96281], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_720578bba3a027ebe0a36a743a50a6d8.bindTooltip(
+                `<div>
+                     Vanden -> Sonoma: 43.32 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_31e011cca52820137f3fd7313ffe3b7f = L.polyline(
+                [[38.28229, -121.96281], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_31e011cca52820137f3fd7313ffe3b7f.bindTooltip(
+                `<div>
+                     Vanden -> Albany: 51.70 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4a72ab97ebc79f1286fa10cc9d90ab66 = L.polyline(
+                [[38.28229, -121.96281], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4a72ab97ebc79f1286fa10cc9d90ab66.bindTooltip(
+                `<div>
+                     Vanden -> Oakland Tech: 56.11 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9b72c05ae9f60039490779f3ed4aae8c = L.polyline(
+                [[38.28229, -121.96281], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9b72c05ae9f60039490779f3ed4aae8c.bindTooltip(
+                `<div>
+                     Vanden -> El Cerito: 50.74 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b2562273ce4872424435de412c959806 = L.polyline(
+                [[38.28229, -121.96281], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_b2562273ce4872424435de412c959806.bindTooltip(
+                `<div>
+                     Vanden -> Novato: 57.60 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_98a493637a5a4601250ed0cfcffc7f2a = L.polyline(
+                [[37.95316, -122.34087], [38.31148, -122.29703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_98a493637a5a4601250ed0cfcffc7f2a.bindTooltip(
+                `<div>
+                     Salesian -> Napa: 39.96 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9a1ebb79790d21b3172315473abf1efc = L.polyline(
+                [[37.95316, -122.34087], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9a1ebb79790d21b3172315473abf1efc.bindTooltip(
+                `<div>
+                     Salesian -> Vintage: 42.32 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e74ccd576f5ff4b5fc57df1f37cea56c = L.polyline(
+                [[37.95316, -122.34087], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_e74ccd576f5ff4b5fc57df1f37cea56c.bindTooltip(
+                `<div>
+                     Salesian -> St Helena: 61.28 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2045882b1207475c4a4d41211a1d93f2 = L.polyline(
+                [[37.95316, -122.34087], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2045882b1207475c4a4d41211a1d93f2.bindTooltip(
+                `<div>
+                     Salesian -> College Prep: 14.62 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_209e08474acf5cd901437be9ad8aa5e7 = L.polyline(
+                [[37.95316, -122.34087], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_209e08474acf5cd901437be9ad8aa5e7.bindTooltip(
+                `<div>
+                     Salesian -> Vallejo: 19.90 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_01d1cb9ff428b5f49163fd8d85e8dc2c = L.polyline(
+                [[37.95316, -122.34087], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_01d1cb9ff428b5f49163fd8d85e8dc2c.bindTooltip(
+                `<div>
+                     Salesian -> Petaluma: 40.58 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cd6a6e5795752e7ab6df605fe60db7d0 = L.polyline(
+                [[37.95316, -122.34087], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_cd6a6e5795752e7ab6df605fe60db7d0.bindTooltip(
+                `<div>
+                     Salesian -> Sonoma: 37.99 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cfb4e78058010498f53a13d5cdf30d10 = L.polyline(
+                [[37.95316, -122.34087], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_cfb4e78058010498f53a13d5cdf30d10.bindTooltip(
+                `<div>
+                     Salesian -> Albany: 7.65 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f7bc744f54a59208b13a46dc9b37b644 = L.polyline(
+                [[37.95316, -122.34087], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f7bc744f54a59208b13a46dc9b37b644.bindTooltip(
+                `<div>
+                     Salesian -> Oakland Tech: 15.39 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_62290abdd69b6d918c1e390186ccb65b = L.polyline(
+                [[37.95316, -122.34087], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_62290abdd69b6d918c1e390186ccb65b.bindTooltip(
+                `<div>
+                     Salesian -> El Cerito: 6.40 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3690e61e10598f1ca135c8175cb3eb54 = L.polyline(
+                [[37.95316, -122.34087], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3690e61e10598f1ca135c8175cb3eb54.bindTooltip(
+                `<div>
+                     Salesian -> Novato: 25.40 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f8290e3b0d994c1dc860210c19231627 = L.polyline(
+                [[38.31148, -122.29703], [38.33333, -122.30462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f8290e3b0d994c1dc860210c19231627.bindTooltip(
+                `<div>
+                     Napa -> Vintage: 2.51 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_771096ef7810a59913298c3ded4c58f4 = L.polyline(
+                [[38.31148, -122.29703], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_771096ef7810a59913298c3ded4c58f4.bindTooltip(
+                `<div>
+                     Napa -> St Helena: 25.15 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_88a938f3682f476a479883cef1349832 = L.polyline(
+                [[38.31148, -122.29703], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_88a938f3682f476a479883cef1349832.bindTooltip(
+                `<div>
+                     Napa -> College Prep: 51.62 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_74da8504386ef08f5faeac8550738ef7 = L.polyline(
+                [[38.31148, -122.29703], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_74da8504386ef08f5faeac8550738ef7.bindTooltip(
+                `<div>
+                     Napa -> Vallejo: 22.15 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9db9550f544d66203a8cefe6250f00c7 = L.polyline(
+                [[38.31148, -122.29703], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9db9550f544d66203a8cefe6250f00c7.bindTooltip(
+                `<div>
+                     Napa -> Petaluma: 31.95 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a0289c0cb21ff0bbf56c0a54ce19f07b = L.polyline(
+                [[38.31148, -122.29703], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_a0289c0cb21ff0bbf56c0a54ce19f07b.bindTooltip(
+                `<div>
+                     Napa -> Sonoma: 14.43 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2937b3a08a8af408ab4d59ab6eb6a093 = L.polyline(
+                [[38.31148, -122.29703], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2937b3a08a8af408ab4d59ab6eb6a093.bindTooltip(
+                `<div>
+                     Napa -> Albany: 46.12 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_989289b72e9c83dc2679eeae9dbc1374 = L.polyline(
+                [[38.31148, -122.29703], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_989289b72e9c83dc2679eeae9dbc1374.bindTooltip(
+                `<div>
+                     Napa -> Oakland Tech: 53.29 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9c22174d08c79b8a70db00f673fa3fa3 = L.polyline(
+                [[38.31148, -122.29703], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9c22174d08c79b8a70db00f673fa3fa3.bindTooltip(
+                `<div>
+                     Napa -> El Cerito: 44.76 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_58a10f47f8e689ee7490c32e49372350 = L.polyline(
+                [[38.31148, -122.29703], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_58a10f47f8e689ee7490c32e49372350.bindTooltip(
+                `<div>
+                     Napa -> Novato: 34.54 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c683fb50fc773e4f5a24774af7250f59 = L.polyline(
+                [[38.33333, -122.30462], [38.49681, -122.46265]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_c683fb50fc773e4f5a24774af7250f59.bindTooltip(
+                `<div>
+                     Vintage -> St Helena: 22.80 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e36407be77cdea11a9aef81d3a087fe9 = L.polyline(
+                [[38.33333, -122.30462], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_e36407be77cdea11a9aef81d3a087fe9.bindTooltip(
+                `<div>
+                     Vintage -> College Prep: 54.10 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d443330bc87c80dfd2f8c511bb2b101a = L.polyline(
+                [[38.33333, -122.30462], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d443330bc87c80dfd2f8c511bb2b101a.bindTooltip(
+                `<div>
+                     Vintage -> Vallejo: 24.66 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0b74b5fedb723f5119cf532048009c42 = L.polyline(
+                [[38.33333, -122.30462], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_0b74b5fedb723f5119cf532048009c42.bindTooltip(
+                `<div>
+                     Vintage -> Petaluma: 32.12 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_017667940608f91b953543e7485481b0 = L.polyline(
+                [[38.33333, -122.30462], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_017667940608f91b953543e7485481b0.bindTooltip(
+                `<div>
+                     Vintage -> Sonoma: 14.54 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d51633c58b9dfac515ad350aee09f1c2 = L.polyline(
+                [[38.33333, -122.30462], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d51633c58b9dfac515ad350aee09f1c2.bindTooltip(
+                `<div>
+                     Vintage -> Albany: 48.56 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_614bc0832d1204e60a045a349cc092c4 = L.polyline(
+                [[38.33333, -122.30462], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_614bc0832d1204e60a045a349cc092c4.bindTooltip(
+                `<div>
+                     Vintage -> Oakland Tech: 55.76 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9c7ede997c5854e9fff196d14ea8d34e = L.polyline(
+                [[38.33333, -122.30462], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_9c7ede997c5854e9fff196d14ea8d34e.bindTooltip(
+                `<div>
+                     Vintage -> El Cerito: 47.20 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_751c6e7b1e648d24505d5f51b5646229 = L.polyline(
+                [[38.33333, -122.30462], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_751c6e7b1e648d24505d5f51b5646229.bindTooltip(
+                `<div>
+                     Vintage -> Novato: 35.86 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ec7d7b612be2f6409b294a196484df13 = L.polyline(
+                [[38.49681, -122.46265], [37.84862, -122.23983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ec7d7b612be2f6409b294a196484df13.bindTooltip(
+                `<div>
+                     St Helena -> College Prep: 74.55 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3a16081f6816b9c6740e6883e0743047 = L.polyline(
+                [[38.49681, -122.46265], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3a16081f6816b9c6740e6883e0743047.bindTooltip(
+                `<div>
+                     St Helena -> Vallejo: 46.33 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e7f660a90cd956f2c222f4d140f5a446 = L.polyline(
+                [[38.49681, -122.46265], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_e7f660a90cd956f2c222f4d140f5a446.bindTooltip(
+                `<div>
+                     St Helena -> Petaluma: 33.91 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_25e6a27243a2c2315712fc5ee17088cd = L.polyline(
+                [[38.49681, -122.46265], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_25e6a27243a2c2315712fc5ee17088cd.bindTooltip(
+                `<div>
+                     St Helena -> Sonoma: 23.77 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4dcfce4c4e7448621e6ff9f36e13e2dd = L.polyline(
+                [[38.49681, -122.46265], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_4dcfce4c4e7448621e6ff9f36e13e2dd.bindTooltip(
+                `<div>
+                     St Helena -> Albany: 68.34 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f0c344fbbcdc332987f5347cdff9cb52 = L.polyline(
+                [[38.49681, -122.46265], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f0c344fbbcdc332987f5347cdff9cb52.bindTooltip(
+                `<div>
+                     St Helena -> Oakland Tech: 75.96 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1f155f717d97f49356d5e8da0e976ab9 = L.polyline(
+                [[38.49681, -122.46265], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_1f155f717d97f49356d5e8da0e976ab9.bindTooltip(
+                `<div>
+                     St Helena -> El Cerito: 66.96 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ce0b3cd343d19119fa363d685ab59604 = L.polyline(
+                [[38.49681, -122.46265], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ce0b3cd343d19119fa363d685ab59604.bindTooltip(
+                `<div>
+                     St Helena -> Novato: 46.24 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_acbaf1bd942820bbf3f31fe5ac37be8e = L.polyline(
+                [[37.84862, -122.23983], [38.116, -122.24595]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_acbaf1bd942820bbf3f31fe5ac37be8e.bindTooltip(
+                `<div>
+                     College Prep -> Vallejo: 29.68 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f7ac045d34f0b63cf67133a0b505376d = L.polyline(
+                [[37.84862, -122.23983], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f7ac045d34f0b63cf67133a0b505376d.bindTooltip(
+                `<div>
+                     College Prep -> Petaluma: 55.17 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d657fbd351c7b053c1f3425138839235 = L.polyline(
+                [[37.84862, -122.23983], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d657fbd351c7b053c1f3425138839235.bindTooltip(
+                `<div>
+                     College Prep -> Sonoma: 51.84 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_16d4fcfad7f23ebf789d1c4cbf93d8b3 = L.polyline(
+                [[37.84862, -122.23983], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_16d4fcfad7f23ebf789d1c4cbf93d8b3.bindTooltip(
+                `<div>
+                     College Prep -> Albany: 6.99 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ff79728505bb9f70994662b7390af5df = L.polyline(
+                [[37.84862, -122.23983], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ff79728505bb9f70994662b7390af5df.bindTooltip(
+                `<div>
+                     College Prep -> Oakland Tech: 2.21 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f0a3edcabd715d2a2cb31f72c00602e0 = L.polyline(
+                [[37.84862, -122.23983], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_f0a3edcabd715d2a2cb31f72c00602e0.bindTooltip(
+                `<div>
+                     College Prep -> El Cerito: 8.22 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b2a44adf4ce3527f9f081bbe33d72390 = L.polyline(
+                [[37.84862, -122.23983], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_b2a44adf4ce3527f9f081bbe33d72390.bindTooltip(
+                `<div>
+                     College Prep -> Novato: 39.66 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ecf1141e969fcb17ffb1077d2669bc83 = L.polyline(
+                [[38.116, -122.24595], [38.22772, -122.64636]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_ecf1141e969fcb17ffb1077d2669bc83.bindTooltip(
+                `<div>
+                     Vallejo -> Petaluma: 37.21 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_243eb363c7f32d6e65700a6f4ffbbf21 = L.polyline(
+                [[38.116, -122.24595], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_243eb363c7f32d6e65700a6f4ffbbf21.bindTooltip(
+                `<div>
+                     Vallejo -> Sonoma: 26.21 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_24e36aa03e93abe3dc1b2a91ac03139b = L.polyline(
+                [[38.116, -122.24595], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_24e36aa03e93abe3dc1b2a91ac03139b.bindTooltip(
+                `<div>
+                     Vallejo -> Albany: 24.75 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2675ffc4bccf6579204cd2bfbb075238 = L.polyline(
+                [[38.116, -122.24595], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_2675ffc4bccf6579204cd2bfbb075238.bindTooltip(
+                `<div>
+                     Vallejo -> Oakland Tech: 31.47 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_830eae272b50a01689dbc7fb1946727e = L.polyline(
+                [[38.116, -122.24595], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_830eae272b50a01689dbc7fb1946727e.bindTooltip(
+                `<div>
+                     Vallejo -> El Cerito: 23.47 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_29501d41ef86fcda7a5b510a19128322 = L.polyline(
+                [[38.116, -122.24595], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_29501d41ef86fcda7a5b510a19128322.bindTooltip(
+                `<div>
+                     Vallejo -> Novato: 28.86 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_24f1d7fcb151cdc276077fd79db2b6b8 = L.polyline(
+                [[38.22772, -122.64636], [38.2827, -122.45788]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_24f1d7fcb151cdc276077fd79db2b6b8.bindTooltip(
+                `<div>
+                     Petaluma -> Sonoma: 17.59 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3ead02278f2c758fceeaad54e4e0ffb1 = L.polyline(
+                [[38.22772, -122.64636], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3ead02278f2c758fceeaad54e4e0ffb1.bindTooltip(
+                `<div>
+                     Petaluma -> Albany: 48.18 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d20a244de2e6371ae614a503ccc7b254 = L.polyline(
+                [[38.22772, -122.64636], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d20a244de2e6371ae614a503ccc7b254.bindTooltip(
+                `<div>
+                     Petaluma -> Oakland Tech: 55.75 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eaad981074535e1224593fa1761773f4 = L.polyline(
+                [[38.22772, -122.64636], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_eaad981074535e1224593fa1761773f4.bindTooltip(
+                `<div>
+                     Petaluma -> El Cerito: 46.98 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6cc0751fcce449b60252888b0d2d111c = L.polyline(
+                [[38.22772, -122.64636], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_6cc0751fcce449b60252888b0d2d111c.bindTooltip(
+                `<div>
+                     Petaluma -> Novato: 16.63 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3f65b9731fc29854685cf0c67c92750e = L.polyline(
+                [[38.2827, -122.45788], [37.896, -122.29219]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3f65b9731fc29854685cf0c67c92750e.bindTooltip(
+                `<div>
+                     Sonoma -> Albany: 45.32 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c18bace9ffc6db7f1366c83f22c86aaa = L.polyline(
+                [[38.2827, -122.45788], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_c18bace9ffc6db7f1366c83f22c86aaa.bindTooltip(
+                `<div>
+                     Sonoma -> Oakland Tech: 53.06 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3ffe7d5847aa10b79a31a3c3b330b315 = L.polyline(
+                [[38.2827, -122.45788], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_3ffe7d5847aa10b79a31a3c3b330b315.bindTooltip(
+                `<div>
+                     Sonoma -> El Cerito: 43.95 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8fb35e433033793f7b8b603dd97d4021 = L.polyline(
+                [[38.2827, -122.45788], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_8fb35e433033793f7b8b603dd97d4021.bindTooltip(
+                `<div>
+                     Sonoma -> Novato: 23.71 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_51f2c323111fa53ed3645d2ee57b6e3f = L.polyline(
+                [[37.896, -122.29219], [37.83252, -122.25455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_51f2c323111fa53ed3645d2ee57b6e3f.bindTooltip(
+                `<div>
+                     Albany -> Oakland Tech: 7.79 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d7fc89ba74ad2f158f3f6991bcbd3bd4 = L.polyline(
+                [[37.896, -122.29219], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d7fc89ba74ad2f158f3f6991bcbd3bd4.bindTooltip(
+                `<div>
+                     Albany -> El Cerito: 1.38 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d9ece6410e054491c0a3b71a649e9494 = L.polyline(
+                [[37.896, -122.29219], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_d9ece6410e054491c0a3b71a649e9494.bindTooltip(
+                `<div>
+                     Albany -> Novato: 32.72 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_735172b274f58bb0c25fb53fd831e899 = L.polyline(
+                [[37.83252, -122.25455], [37.9082, -122.29529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_735172b274f58bb0c25fb53fd831e899.bindTooltip(
+                `<div>
+                     Oakland Tech -> El Cerito: 9.13 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0d78b7d7aad633556efe94abaf8a4b01 = L.polyline(
+                [[37.83252, -122.25455], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_0d78b7d7aad633556efe94abaf8a4b01.bindTooltip(
+                `<div>
+                     Oakland Tech -> Novato: 39.97 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0928c629b3f966c4da272797357f4bfe = L.polyline(
+                [[37.9082, -122.29529], [38.08944, -122.57322]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6d6bfba88e88a5b4a4d7372336defb80);
+        
+    
+            poly_line_0928c629b3f966c4da272797357f4bfe.bindTooltip(
+                `<div>
+                     El Cerito -> Novato: 31.63 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
